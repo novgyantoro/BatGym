@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/New/styleform.css">
+    <title>Bat Gym</title>
+</head>
+<body data-animate="fade-down">
+    <section class="contact">
+        <form action="addMember.jsp" method="post">
+            <h2>Free Trial Account</h2>
+
+            <div class="input-box"> 
+                <div class="input-field field">
+                    <input type="text" placeholder="Username" id="name" class="item" name="username">
+                    <div class="error-text">Username can't be blank</div>
+                </div>
+                 <div class="input-field field">
+                    <input type="password" placeholder="Password" id="password" class="item" name="password">
+                    <div class="error-text">Password can't be blank</div>
+                </div>
+            </div>
+
+            <div class="input-box"> 
+                <div class="input-field field">
+                    <input type="text" placeholder="Basic/Pro/Premium" id="interests" class="item" name="paket">
+                    <div class="error-text">Subject can't be blank</div>
+                </div>
+                 <div class="input-field field">
+                    <input type="text" placeholder="Email" id="email" class="item" name="email">
+                    <div class="error-text email">Email can't be blank</div>
+                </div>
+            </div>
+
+            <div class="textarea-field field">
+                <textarea id="message" cols="20" rows="10" placeholder="Program & Goals?" class="item" name="program" ></textarea>
+                <div class="error-text">Message can't be blank</div>
+            </div>
+
+            <button type="submit" value="Register">Create</button>
+            <a href="login.html"> <button type="button">Back</button></a> 
+        </form>
+    </section>
+    
+
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="assets/New/form.js"></script>
+
+</body>
+</html>

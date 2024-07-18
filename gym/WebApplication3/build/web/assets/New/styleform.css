@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(to bottom right, #000000, #45FFCA);
+    padding: 20px; 
+}
+
+h2 {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    width: 100%; 
+    max-width: 600px; 
+}
+
+form .input-box {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+}
+
+.input-box .input-field {
+    width: 48%;
+    margin-bottom: 12px; 
+}
+
+.field .item {
+    width: 100%;
+    padding: 18px;
+    background-color: transparent;
+    border: 2px solid #45FFCA;
+    box-shadow: 0 0 5px #45FFCA;
+    outline: none;
+    border-radius: 28px;
+    font-size: 16px;
+    color: #ededed;
+    margin: 12px 0;
+}
+
+.field.error .item {
+    border-color: #d93025;
+}
+
+.field .item::placeholder {
+    color: white;
+}
+
+form .textarea-field .item {
+    resize: none;
+}
+
+form button {
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background: #45FFCA;
+    box-shadow: none;
+    font-size: 1rem;
+    color: #000000;
+    letter-spacing: .1rem;
+    font-weight: 600;
+    transition: .5s ease;
+    border: none; 
+    margin-right: 10px;
+    outline: none;
+    border-radius: 28px;
+}
+
+form button:hover {
+    background: #45FFCA;
+    color: #fff;
+
+}
+
+
+.field .error-text {
+    font-size: 14px;
+    color: #d93025;
+    text-align: left;
+    margin: -5px 0 10px;
+    display: none;
+}
+
+.field.error .error-text {
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .input-box .input-field {
+        width: 100%; 
+    }
+    h2 {
+        font-size: 32px; 
+    }
+}
+
+/* Define initial state and animation keyframes */
+[data-animate] {
+    opacity: 0;
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+  }
+  
+  [data-animate].fade-in {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .fade-up {
+    transform: translateY(20px);
+  }
+

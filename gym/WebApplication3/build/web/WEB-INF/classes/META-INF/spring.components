@@ -1,0 +1,1 @@
+Controller.UpdateServlet=javax.servlet.annotation.WebServlet,javax.servlet.annotation.MultipartConfig

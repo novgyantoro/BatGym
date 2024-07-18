@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+
+
+body {
+    background: linear-gradient(to bottom right, #000000, #45FFCA);
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.profile-title, .form-title {
+    margin: 20px 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.profile-info, .form-container {
+    margin-top: 20px;
+}
+
+.profile-info div, .form-container div {
+    padding: 10px 0;
+    
+}
+
+.profile-info div span, .form-container div label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.profile-info div input, .form-container div input, .form-container div textarea {
+    background: transparent;
+    border: 2px solid #45FFCA;
+    box-shadow: 0 0 5px #45FFCA;
+    border-radius: 28px;
+    color: #fff;
+    font-size: 16px;
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.switch-button,
+.personal-info-button,
+.verification-button,
+.form-container .form-button {
+    margin: 20px 0;
+    padding: 10px 0;
+    text-align: center;
+    
+    cursor: pointer;
+    border: 2px solid #00bfa5;
+    border-radius: 28px;
+    padding: 10px 20px;
+    display: inline-block;
+    background-color: #503C3C;
+    color: #aaa;
+}
+
+.bupdate {
+   margin: 20px 0;
+    padding: 10px 0;
+    text-align: center;
+    
+    cursor: pointer;
+    border: 2px solid #00bfa5;
+    border-radius: 28px;
+    padding: 10px 20px;
+    display: inline-block;
+    background-color: #503C3C;
+    color: #aaa; 
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-container .form-row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.form-container .form-row input {
+    flex: 1;
+    margin: 0 10px;
+    padding: 10px;
+    border-radius: 25px;
+    border: 2px solid #00bfa5;
+    text-align: center;
+    background: #00bfa5;
+}
+
+.form-container textarea {
+    width: calc(100% - 22px);
+    padding: 10px;
+    border-radius: 25px;
+    border: 2px solid #00bfa5;
+    text-align: center;
+    background: #00bfa5;
+}
+
+.exit {
+    margin-left: 180px;
+}
+

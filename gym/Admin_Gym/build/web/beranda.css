@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+
+:root {
+    --bg-color: #000000;
+    --second-bg-color: #111111;
+    --text-color: #fff;
+    --main-color: #45FFCA;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid var(--main-color); /* Border color using main color */
+}
+
+.admin-section, .contact-section, .logo-section {
+    width: 33%;
+}
+
+.admin-section h1, .logo-section h1 {
+    margin: 0;
+    color: var(--main-color);
+}
+
+.admin-section p, .contact-section p {
+    margin: 5px 0;
+    color: var(--text-color);
+}
+
+.logo-section img {
+    width: 50px;
+    height: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+thead {
+    background-color: var(--second-bg-color);
+    color: var(--text-color);
+}
+
+thead th {
+    padding: 10px;
+     background-color: var(--second-bg-color);
+}
+
+
+
+tbody td {
+     background-color: var(--second-bg-color);
+    padding: 10px;
+    text-align: center;
+
+}
+
+
+tbody td:nth-child(2), thead th:nth-child(2) {
+    width: 200px; 
+}
+
+tbody td:nth-child(4), thead th:nth-child(4) {
+    width: 120px; 
+}
+
+tbody td:nth-child(5), thead th:nth-child(5) {
+    width: 150px; 
+}
+
+tbody td:nth-child(6), thead th:nth-child(6) {
+    width: 180px; 
+}
+
+.search-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.search-container form {
+    display: inline-block;
+}
+
+.search-container input[type="text"] {
+    padding: 8px;
+    width: 200px;
+    border: 1px solid var(--main-color); /* Border color using main color */
+    border-radius: 4px;
+    margin-right: 5px;
+}
+
+.search-container button {
+    padding: 8px 16px;
+    background-color: var(--main-color);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+
+.update {
+    padding: 10px 20px;
+    background-color: var(--main-color); /* Menggunakan main color */
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.update:hover {
+    background-color: #50727B; /* Warna lebih gelap dari main color saat dihover */
+}
+
+.search-container button:hover {
+    background-color: #50727B; /* Darker shade of main color on hover */
+}
+
+.update-edit {
+    padding: 10px 20px;
+    background-color: white; /* Menggunakan main color */
+    color: black;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
