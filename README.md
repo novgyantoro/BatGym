@@ -16,6 +16,7 @@ Fitness website, focusing on member account creation and login, using JAVA.
 - *Creation of Membership*: Quickly find the parts you need with our powerful search bar.
 - *Edit and Delete Member Accounts.*: Comprehensive descriptions and images for each product.
 - *BMI* BMI calculator to measure body mass index.
+- *Admin* Admin for employees overseeing accounts
 
 ## Technologies Used
 
@@ -75,16 +76,18 @@ Thank you for visiting Bat Gym! We hope you enjoy the process with us and findin
 
 Main page
 
-![Screenshot (569)](https://github.com/user-attachments/assets/4928b903-feac-4a1f-9ba5-3e5488798852)
+![Screenshot (569)](https://github.com/user-attachments/assets/cb4766b5-4087-4ea3-8df1-9d70ff2f80e5)
+
 
 service page
 
-![Screenshot (570)](https://github.com/user-attachments/assets/236179d7-07c1-4a36-8a85-d7955a2df5a5)
+![Screenshot (570)](https://github.com/user-attachments/assets/5c36b0df-48ca-4237-92d2-2537e6892e3a)
 
 
 about page
 
-![Screenshot (571)](https://github.com/user-attachments/assets/04bc0b64-d464-4d9c-b0d0-e93a8cbad62d)
+
+![Screenshot (571)](https://github.com/user-attachments/assets/d9d4949b-b518-4467-a731-0ca19d3c8305)
 
 
 Package Page
@@ -93,7 +96,7 @@ Package Page
 
 Review Page
 
-![Screenshot (573)](https://github.com/user-attachments/assets/05c7a919-2ef5-4fbc-88c6-22adf58ed013)
+![Screenshot (573)](https://github.com/user-attachments/assets/eaca654e-e875-4415-81dc-319a1753807f)
 
 
 
@@ -102,17 +105,36 @@ Review Page
 
 login 
 
-![Screenshot (574)](https://github.com/user-attachments/assets/a8b00d52-a50f-4423-8f1b-e12271d4e9fe)
+![Screenshot (574)](https://github.com/user-attachments/assets/8011346f-82ff-4f2d-b416-cb582f590616)
+
 
 create account
 
-![Screenshot (575)](https://github.com/user-attachments/assets/b1267856-1d85-44d9-b865-d37c9452c22a)
+![Screenshot (575)](https://github.com/user-attachments/assets/ddba7ec1-af28-4301-adf6-32917f676e8c)
+
 
 view data
 
-![Screenshot (576)](https://github.com/user-attachments/assets/631ba3a3-bafa-406a-8efc-16f9c4868e0b)
+
+![Screenshot (576)](https://github.com/user-attachments/assets/8ac7918c-ddc4-415b-a5ce-61845554e321)
 
 
 add item
 
-![Screenshot (577)](https://github.com/user-attachments/assets/84279b7b-16d4-493d-b163-17c8e3dbb710)
+![Screenshot (577)](https://github.com/user-attachments/assets/6fc82bfa-2a5f-43a6-9426-e5c29ec45479)
+
+
+
+# preview for admin
+
+login admin
+
+![Screenshot (582)](https://github.com/user-attachments/assets/6e330037-720e-4d23-b409-ae9fd2188d7c)
+
+view data for admin
+
+![Screenshot (578)](https://github.com/user-attachments/assets/7ce3fc73-7974-4074-ac84-4cc402998a45)
+
+edit data for admin
+
+![Screenshot (579)](https://github.com/user-attachments/assets/b56f2c5f-e300-4e8e-98d7-376ca6a9ae89)
