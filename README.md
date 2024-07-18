@@ -2,7 +2,8 @@
 Fitness website, focusing on member account creation and login, using JAVA.
 # BAT GYM (Website Fitness)
 
-[Screenshot (569)](https://github.com/user-attachments/assets/4928b903-feac-4a1f-9ba5-3e5488798852)
+
+![Screenshot (569)](https://github.com/user-attachments/assets/54561c54-3e4d-43d1-86ec-2e4dbc4775ce)
 
 ## Overview
 
